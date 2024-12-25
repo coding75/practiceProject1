@@ -1,0 +1,26 @@
+/*  is a universal selector */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "montserrat";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  position: fixed;
+  height: 140px;
+  width: 100%;
+  display: flex;
+  align-items: center; /*align the item in "Y" axis */
+  padding: 0 150px;
+  gap: 40px;
+  /* align the item along the "X" axis */
+  justify-content: flex-start;
+}
